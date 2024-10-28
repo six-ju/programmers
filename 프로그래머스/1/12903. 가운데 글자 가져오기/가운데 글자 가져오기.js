@@ -1,5 +1,5 @@
 function solution(s) {
-    const num = s.length
-    const floor = Math.floor(num/2)
-    return num % 2 !== 0 ? s[floor] : `${s[floor-1]}${s[floor]}`
+    const floor = Math.floor(s.length/2)
+    return s.length % 2 !== 0 ? s[floor] : `${s[floor-1]}${s[floor]}`
 }
+
